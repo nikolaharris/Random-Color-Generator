@@ -7,7 +7,7 @@ function setColor() {
         return (~~(Math.random()*16)).toString(16);}); 
         console.log(randomColorTwo)
 
-    document.getElementById('container').style.backgroundImage = '-webkit-linear-gradient( left,'+ randomColorOne +' , '+ randomColorTwo +')';
+    document.getElementById('container').style.backgroundImage = '-webkit-linear-gradient( bottom left,'+ randomColorOne +' , '+ randomColorTwo +')';
     document.getElementById('colorOne').innerHTML = randomColorOne;
     document.getElementById('colorTwo').innerHTML = randomColorTwo;
 }
