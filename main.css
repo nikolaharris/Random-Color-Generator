@@ -29,7 +29,15 @@ nav i {
     margin: 0px 15px;
 }
 
+nav i:hover {
+    color: white;
+}
+
 nav span {
     background-color: rgba(256, 256, 256, 0.1);
     padding: 5px;
+}
+
+nav span:hover {
+    color: white;
 }
